@@ -16,6 +16,7 @@ a {
 body {
     margin: 0px;
     background: url(../images/white-waves.png);
+    height: 100%;
 }
 
 /* Nav Bar CSS */
@@ -37,7 +38,7 @@ header {
 }
 
 header h1 {
-    font-size: 32px;
+    /* font-size: 32px; */
     padding: 25px;
     color: white;
     background: #4aaaa5;
@@ -62,9 +63,45 @@ nav ul li {
 section {
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 30px;
     width: 960px;
     background: white;
-    height: 700px;
+    height: 520px;
     border-radius: 5px;
-    box-shadow: 0px 0px 4px 0px grey;
+    /* box-shadow: 0px 0px 4px 0px grey; */
+}
+
+.section-width {
+    padding: 2% 5%;
+}
+
+section h1 {
+    color: #4aaaa5;
+    padding-bottom: 3%;
+    border-bottom: 3px solid #DEDEDE;
+}
+
+section img {
+    height: 150px;
+    float: left;
+    margin-right: 3%;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 100px;
+    margin-top: 162px;
+}
+
+footer p {
+    color: white;
 }
