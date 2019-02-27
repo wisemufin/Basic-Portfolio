@@ -1,0 +1,28 @@
+.portfolio-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.portfolio-block p {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: 10px 0;
+}
+
+.portfolio-block img {
+    position: relative;
+    margin-right: 0;
+}
+
+.portfolio-positioning {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-around;
+}
